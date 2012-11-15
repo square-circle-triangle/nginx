@@ -174,6 +174,7 @@ The nginx service will be set up according to `node['nginx']['init_style']`. Ava
 
 The following recipes are used to build module support into Nginx:
 
+* `ipv6.rb` - enables IPv6 support
 * `http_echo_module.rb` - downloads the `http_echo_module` module and enables it as a module when compiling nginx.
 * `http_geoip_module.rb` - installs the GeoIP libraries and data files and enables the module for compilation.
 * `http_gzip_static_module.rb` - enables the module for compilation.
