@@ -70,4 +70,6 @@ types {
     video/x-ms-asf                        asx asf;
     video/x-ms-wmv                        wmv;
     video/x-msvideo                       avi;
+    video/mp4                             mp4;
+    video/webm                            webm;
 }
